@@ -16,14 +16,11 @@
 Java is a Object-Oriented Programming Language. This means that Java is written based on classes and not on functions or procedures like in C.
 It is a compiled language, meaning that it requires a compiler which you can download from https://www.oracle.com/in/java/technologies/javase-downloads.html. 
 
-
-### Writing your program
-
-
 ### Running your Program
+Code is written in a `.java` file which is compiled by the compiler.  
 While compilation, each class is compiled into a new file with `.class` extension. The Java interpreter searches and runs the main method (called main) within the file you inputted. Other methods shall be accessed only through main.  
 
-Code is written in a `.java` file which is compiled by the compiler using the command  
+You can compile a `.java` file using the command  
 ```
 javac YourProgramName.java
 ```
@@ -48,12 +45,12 @@ Error: Main method not found in class MyProgramWithNoMainMethod, please define t
 or a JavaFX application class must extend javafx.application.Application
 ```
 
-**A class with a main method**  
+**The _main()_ Method**  
 ```java 
-public class Program {
-	public void main(String[] args) {
-		// Your code here
-	}
+public void main(String[] args) {
+	// Your code here
 }
 ```
 ## OOP
+OOP stands for Object Oriented Paradigm, which means that 
+
