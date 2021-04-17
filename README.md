@@ -36,14 +36,14 @@ _**Make sure that the .class extension is not included in the command above**_
 If not:
 ``` sh
 $ java YourProgramName.class
-Error: Could not find or load main class Hello.class
+Error: Could not find or load main class YourProgramName.class
 ```
 The `.class` file is read by interpreter which executes it. 
 
 **When a `.class` file with no main method is run**
 ```
 $ java MyProgramWithNoMainMethod
-Error: Main method not found in class Hello, please define the main method as:
+Error: Main method not found in class MyProgramWithNoMainMethod, please define the main method as:
    public static void main(String[] args)
 or a JavaFX application class must extend javafx.application.Application
 ```
