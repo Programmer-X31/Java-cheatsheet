@@ -16,6 +16,8 @@
 ## Basic Knowledge
 Java is a Object-Oriented Programming Language. This means that Java is written based on classes and not on functions or procedures like in C.
 It is a compiled language, meaning that it requires a compiler which you can download from https://www.oracle.com/in/java/technologies/javase-downloads.html. 
+
+### Running your Program
 Code is written in a ```.java ``` file which is compiled by the compiler using the command 
 ```sh 
 javac YourProgramName.java
@@ -24,6 +26,19 @@ This gives a new file with the same name but with a ```.class``` extension. You 
 ```sh 
 java YourProgramName
 ```
-_Make sure that the .class extension is not included in the command above_ 
+_**Make sure that the .class extension is not included in the command above**_  
 
+The ```.class``` file is read by interpreter which executes it.  
+
+### Writing your program
+While compilation, each class is comiled into a new file with ```.class``` extension. The java interpreter searches for the main method (called main) which it runs at first. Other methods shall be accessed only through main.
+
+**A class with a main method**  
+```java 
+public class Program {
+	public void main(String[] args) {
+		// Your code here
+	}
+}
+```
 ## OOP
