@@ -52,5 +52,12 @@ public void main(String[] args) {
 }
 ```
 ## OOP
-OOP stands for Object Oriented Paradigm, which means that 
+OOP stands for Object Oriented Paradigm, which means that all programs are based on classes and objects. The importance is given to data and methods instead of functions.
+
+PROs of OOP  | CONs of OOP
+------------ | ------------
+Extensiblity | asdf
+Flexibility  | asdf
+Re-Usability | asdf
+Code Maintenance | asdf
 
