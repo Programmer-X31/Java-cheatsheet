@@ -14,7 +14,7 @@
 
 ## Basic Knowledge
 Java is a Object-Oriented Programming Language. This means that Java is written based on classes and not on functions or procedures like in C.
-It is a compiled language, meaning that it requires a compiler which you can download from https://www.oracle.com/in/java/technologies/javase-downloads.html. 
+It is a compiled language, meaning that it requires a compiler. You can download it from https://www.oracle.com/in/java/technologies/javase-downloads.html. 
 
 ### Running your Program
 Code is written in a `.java` file which is compiled by the compiler.  
@@ -51,13 +51,20 @@ public void main(String[] args) {
 	// Your code here
 }
 ```
-## OOP
-OOP stands for Object Oriented Paradigm, which means that all programs are based on classes and objects. The importance is given to data and methods instead of functions.
+## Object Oriented Programming
+OOP stands for Object Oriented Programming, which means that all programs are based on classes and objects. The importance is given to data and methods instead of functions.
 
 PROs of OOP  | CONs of OOP
 ------------ | ------------
-Extensiblity | asdf
-Flexibility  | asdf
-Re-Usability | asdf
-Code Maintenance | asdf
+Extensiblity | Larger Size
+Flexibility  | Slower in Speed
+Re-Usability | More Effort needed
+Productive | -
+
+Object Oriented Programming is quite popular because the code is easily made to evolve like in real life.
+
+
+
+
+
 
