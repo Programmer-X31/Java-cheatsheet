@@ -3,7 +3,7 @@
 
 ## Contents:  
 1. [Basic Knowledge](#basic-knowledge)
-1. [OOP](#oop)  
+1. [Object Oriented Programming](#object-oriented-programming)  
 3. [Classes in Java](#classes-in-java)  
 5. [Data Types](#data-types)  
 6. [Data Casting](#data-casting)  
